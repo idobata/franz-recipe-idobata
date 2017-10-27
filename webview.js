@@ -1,4 +1,4 @@
-module.exports = (Franz, options) => {
+module.exports = (Franz) => {
   function getMessages() {
     const title = document.querySelector("title").innerHTML.match(/\d+/);
     const count = title !== null ? title[0] : 0;
